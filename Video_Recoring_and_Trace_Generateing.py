@@ -28,3 +28,16 @@ def page(browser):
     context.tracing.stop(path="c:/Users/kumaw/PycharmProjects/PlaywrightLearning/testcases/trace/trace.zip")
     page.close()
     context.close()
+
+# ==============================================================================================================================
+
+# Here are the Steps to open trace.zip file
+
+# 1. Open the terminal in PyCharm (Available in the left mid-bottom)
+# 2. Enter: cd .\testcases\trace
+# Now we are in the trace folder 
+# 3. Enter: playwright show-trace trace.zip
+
+
+
+
